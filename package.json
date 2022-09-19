@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "eslint --cache --fix src/ && prettier src/"
+    "lint:fix": "eslint --cache --fix src/ && prettier --write src/"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",
@@ -25,6 +25,8 @@
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
     "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "2.7.1",
     "typescript": "4.8.3"
   }
