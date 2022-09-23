@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "eslint --cache --fix . && prettier --write ."
+    "lint:fix": "eslint --cache --fix --ext .js,.ts,.tsx . --ignore-path .gitignore && prettier --write ."
   },
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",
