@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "lint:fix": "eslint --cache --fix --ext .js,.ts,.tsx . --ignore-path .gitignore && prettier --write ."
+    "lint": "next lint --fix --ext .js,.ts,.tsx ./src --ignore-path .gitignore",
+    "lint:fix": "yarn lint && prettier --write ." 
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.10",
@@ -27,6 +27,7 @@
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "2.7.1",

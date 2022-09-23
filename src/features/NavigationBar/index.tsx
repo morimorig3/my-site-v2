@@ -1,12 +1,9 @@
+import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import {
   Box,
   Button,
-  CloseButton,
-  Collapse,
   Container,
-  Fade,
   HStack,
-  Slide,
   SlideFade,
   Spacer,
   Text,
@@ -14,8 +11,6 @@ import {
   useColorModeValue,
   useDisclosure,
 } from '@chakra-ui/react';
-
-import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import { FaGithub, FaFingerprint } from 'react-icons/fa';
 
 export const NavigationBar = () => {
